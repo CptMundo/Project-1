@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#logo {
+    float: left;
+    font-size: 50px;
+    color: black;
+}
+
+/*navigation links*/
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+
+}
+
+#menu li {
+    float: right;
+    list-style: none;
+    margin-right: 12px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid grey
+}
+
+.active {
+    border-bottom: 1px solid grey;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+/* text formatation*/
+
+
+h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 4px;
+    font-family: 'eminem-encore-regular', sans-serif;
+    overflow: visible;
+}
+
+section {
+    font-family: 'eminem-encore-regular', sans-serif;
+}
+
+/*hero image*/
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero.jpg") no-repeat center center;
+}
+
+#hero-outer {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+    animation: hero-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero image*/
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+/* Hero Image cover text*/
+
+#cover-text h2 {
+    color: rgb(245, 238, 238);
+    font-size: 200%;
+    font-family: 'eminem-encore-regular', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 450px;
+    height: 150px;
+
+    padding-top: 30px;
+    padding-left: 30px;
+
+    background-color: rgba(85, 85, 85, 0.377);
+
+    bottom: 30px;
+    right: 850px;
+    left: 600px;
+
+    position: absolute;
+}
+
+#cover-text h3 {
+    color: rgb(245, 238, 238);
+    font-size: 160%;
+    font-family: 'eminem-encore-regular', sans-serif;
+    letter-spacing: 4px;
+
+    width: 450px;
+    height: 150px;
+
+    bottom: -20px;
+    right: 850px;
+    left: 630px;
+
+    position: absolute;
+}
+
+#cover-text h4 {
+    color: rgb(245, 238, 238);
+    font-size: 160%;
+    font-family: 'eminem-encore-regular', sans-serif;
+    letter-spacing: 4px;
+
+    width: 450px;
+    height: 150px;
+
+    bottom: -70px;
+    right: 850px;
+    left: 630px;
+
+    position: absolute;
+}
