@@ -6,7 +6,7 @@
 
 #logo {
     float: left;
-    font-size: 50px;
+    font-size: 70px;
     color: black;
 }
 
@@ -40,6 +40,8 @@
 #menu,
 #logo {
     line-height: 75px;
+    margin-left: 50px;
+    margin-bottom: 25px
 }
 
 /* text formatation*/
@@ -107,8 +109,7 @@ section {
     background-color: rgba(85, 85, 85, 0.377);
 
     bottom: 30px;
-    right: 850px;
-    left: 600px;
+    left: 900px;
 
     position: absolute;
 }
@@ -123,8 +124,7 @@ section {
     height: 150px;
 
     bottom: -20px;
-    right: 850px;
-    left: 630px;
+    left: 930px;
 
     position: absolute;
 }
@@ -139,8 +139,32 @@ section {
     height: 150px;
 
     bottom: -70px;
-    right: 850px;
-    left: 630px;
+    left: 930px;
 
     position: absolute;
+}
+
+/*About menu*/
+
+#about {
+    padding-top: 75px;
+    height: 900px;
+}
+
+#left-biography {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-discography {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-disses {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
 }
