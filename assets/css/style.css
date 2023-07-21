@@ -68,7 +68,7 @@ section {
 }
 
 #hero-outer {
-    height: 400px;
+    height: 700px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -104,12 +104,12 @@ section {
     height: 150px;
 
     padding-top: 30px;
-    padding-left: 30px;
+    padding-left: 10px;
 
     background-color: rgba(85, 85, 85, 0.377);
 
-    bottom: 30px;
-    left: 900px;
+    bottom: 250px;
+    left: 50%;
 
     position: absolute;
 }
@@ -123,8 +123,9 @@ section {
     width: 450px;
     height: 150px;
 
-    bottom: -20px;
-    left: 930px;
+    padding-left: 10px;
+    bottom: 200px;
+    left: 50%;
 
     position: absolute;
 }
@@ -138,33 +139,65 @@ section {
     width: 450px;
     height: 150px;
 
-    bottom: -70px;
-    left: 930px;
+    padding-left: 10px;
+    bottom: 150px;
+    left: 50%;
 
     position: absolute;
 }
 
-/*About menu*/
+/*about h2*/
 
 #about {
-    padding-top: 75px;
-    height: 900px;
+    font-size: 360%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0px;
+    font-family: 'eminem-encore-regular', sans-serif;
+
 }
+
+/*About menu*/
+
 
 #left-biography {
     padding-top: 30px;
     width: 33%;
     float: left;
+    background-image: url(../images/image-bio.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 36px;
 }
 
 #right-discography {
     padding-top: 30px;
     width: 33%;
     float: right;
+    background-image: url(../images/image-bio.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 36px;
 }
 
 #center-disses {
     padding-top: 30px;
-    width: 33%;
+    height: 700px;
+    width: 34%;
     float: right;
+    background-image: url(../images/image-bio.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 36px;
+
 }
