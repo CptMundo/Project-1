@@ -59,6 +59,15 @@ section {
     font-family: 'eminem-encore-regular', sans-serif;
 }
 
+
+/*About menu text*/
+
+#about-text-menu {
+    padding-left: 50px;
+    padding-top: 15px;
+    color: white;
+}
+
 /*hero image*/
 
 #hero-image {
@@ -158,46 +167,41 @@ section {
 
 }
 
-/*About menu*/
+/* Image About menu*/
 
 
 #left-biography {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
     background-image: url(../images/image-bio.jpg);
     background-repeat: no-repeat;
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    font-size: 36px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    width: 33%;
+    height: 800px;
+    float: left;
+
 }
 
 #right-discography {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-    background-image: url(../images/image-bio.jpg);
+    background-image: url(../images/image.jpg);
     background-repeat: no-repeat;
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    font-size: 36px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    width: 33%;
+    height: 800px;
+    float: right;
 }
 
 #center-disses {
-    padding-top: 30px;
-    height: 700px;
-    width: 34%;
-    float: right;
-    background-image: url(../images/image-bio.jpg);
+    background-image: url(../images/eminem-banner.jpg);
     background-repeat: no-repeat;
-    height: 400px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
-    color: white;
-    font-size: 36px;
-
+    width: 33%;
+    height: 800px;
+    float: center;
 }
