@@ -10,10 +10,19 @@
     color: black;
 }
 
+body {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x: hidden;
+
+}
+
 /*navigation links*/
 
 #menu {
-    font-size: 110%;
+    font-size: 120%;
     letter-spacing: 2px;
 
 }
@@ -55,8 +64,35 @@ h1 {
     overflow: visible;
 }
 
+#about {
+    font-size: 360%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0px;
+    font-family: 'eminem-encore-regular', sans-serif;
+
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
 section {
     font-family: 'eminem-encore-regular', sans-serif;
+}
+
+#bio-text {
+    text-align: center;
+    text-size-adjust: auto;
+    overflow-x: hidden;
+    font-size: 24px;
+    padding-bottom: 10px;
 }
 
 
@@ -77,7 +113,7 @@ section {
 }
 
 #hero-outer {
-    height: 700px;
+    height: 650px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -155,53 +191,97 @@ section {
     position: absolute;
 }
 
-/*about h2*/
+/*Menu image animation*/
 
-#about {
-    font-size: 360%;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    margin: 0px;
-    font-family: 'eminem-encore-regular', sans-serif;
-
+.image-container {
+    display: flex;
+    justify-content: center;
 }
 
-/* Image About menu*/
-
-
-#left-biography {
-    background-image: url(../images/image-bio.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
+.zoom-image {
     width: 33%;
     height: 800px;
-    float: left;
-
+    margin: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
 }
 
-#right-discography {
-    background-image: url(../images/image.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    width: 33%;
-    height: 800px;
-    float: right;
+.zoom-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-#center-disses {
-    background-image: url(../images/eminem-banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.zoom-image:hover {
+    transform: scale(1.05);
+}
+
+.image-text {
+    position: absolute;
+    bottom: 600px;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.329);
+    color: #ffffff;
+    font-size: 46px;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 33%;
-    height: 800px;
-    float: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.zoom-image:hover .image-text {
+    opacity: 1;
+}
+
+/*Concert cxalendar*/
+
+.concert-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+}
+
+h2 {
+    width: 100%;
+    font-size: 28px;
+}
+
+.concert-card {
+    position: relative;
+    width: 30%;
+    background-color: #ffffff49;
+    padding: 5px;
+    padding-top: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.concert-card:hover {
+    transform: scale(1.05);
+}
+
+h3 {
+    font-size: 24px;
+}
+
+#concert-text {
+    font-size: 16px;
+    text-align: center;
+}
+
+img {
+    width: 80%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+    justify-content: center;
 }
