@@ -64,6 +64,12 @@ h1 {
     overflow: visible;
 }
 
+#h3-title {
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 #about {
     font-size: 360%;
     text-align: center;
@@ -95,12 +101,16 @@ section {
     padding-bottom: 10px;
 }
 
-#personal-information {
-    width: 50%;
+#h3-bio {
+    font-size: 56px;
+    text-transform: uppercase;
+}
+
+#grey-block {
+    width: 100%;
     background-color: rgba(56, 53, 53, 0.500);
     color: white;
     font-size: 24px;
-    float: left;
     line-height: 35px;
 }
 
@@ -291,6 +301,21 @@ img {
     object-fit: cover;
     border-radius: 5px;
     justify-content: center;
+}
+
+/* Create 2 columns */
+.columns {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    margin: 10px;
+}
+
+section {
+    max-height: 100%;
+    overflow: hidden;
 }
 
 /*Lists*/
