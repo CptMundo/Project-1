@@ -68,6 +68,17 @@ h1 {
     font-size: 36px;
     text-transform: uppercase;
     text-align: center;
+    padding-bottom: 30px;
+}
+
+#h3-title-grey {
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgba(56, 53, 53, 0.500);
+    color: white;
+    padding-bottom: 30px;
+
 }
 
 #about {
@@ -105,6 +116,7 @@ section {
     font-size: 56px;
     text-transform: uppercase;
 }
+
 
 #grey-block {
     width: 100%;
