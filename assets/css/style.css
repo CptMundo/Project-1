@@ -95,8 +95,14 @@ section {
     padding-bottom: 10px;
 }
 
-
-/*About menu text*/
+#personal-information {
+    width: 50%;
+    background-color: rgba(56, 53, 53, 0.500);
+    color: white;
+    font-size: 24px;
+    float: left;
+    line-height: 35px;
+}
 
 #about-text-menu {
     padding-left: 50px;
@@ -123,7 +129,7 @@ section {
     animation-fill-mode: forwards;
 }
 
-/* creates the level of zoom for hero image*/
+/* creates the zoom for hero image*/
 
 @keyframes hero-zoom {
     from {
@@ -285,4 +291,11 @@ img {
     object-fit: cover;
     border-radius: 5px;
     justify-content: center;
+}
+
+/*Lists*/
+
+.numbering {
+    list-style: decimal;
+    list-style-position: inside;
 }
