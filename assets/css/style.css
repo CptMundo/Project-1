@@ -112,6 +112,15 @@ section {
     color: white;
     font-size: 24px;
     line-height: 35px;
+    text-align: center;
+}
+
+#white-block {
+    width: 100%;
+    color: black;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
 }
 
 #about-text-menu {
