@@ -68,18 +68,18 @@ h1 {
     font-size: 36px;
     text-transform: uppercase;
     text-align: center;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 #h3-title-grey {
     font-size: 36px;
     text-transform: uppercase;
     text-align: center;
-    background-color: rgba(56, 53, 53, 0.500);
+    background-color: rgb(26, 26, 26);
     color: white;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 
 }
 
@@ -122,11 +122,12 @@ section {
 
 #grey-block {
     width: 100%;
-    background-color: rgba(56, 53, 53, 0.500);
+    background-color: #333;
     color: white;
     font-size: 24px;
     line-height: 35px;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 #white-block {
@@ -135,6 +136,7 @@ section {
     font-size: 24px;
     line-height: 35px;
     text-align: center;
+    padding-bottom: 15px;
 }
 
 #about-text-menu {
@@ -366,5 +368,5 @@ section {
 }
 
 .social-icon:hover {
-    transform: scale(1.2);
+    transform: scale(1.4);
 }
