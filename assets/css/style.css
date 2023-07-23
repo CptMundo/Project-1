@@ -69,6 +69,7 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 #h3-title-grey {
@@ -78,6 +79,7 @@ h1 {
     background-color: rgba(56, 53, 53, 0.500);
     color: white;
     padding-bottom: 30px;
+    padding-top: 30px;
 
 }
 
@@ -344,4 +346,25 @@ section {
 .numbering {
     list-style: decimal;
     list-style-position: inside;
+}
+
+/*footer*/
+
+.horizontal-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    height: 80px;
+}
+
+.social-icon {
+    font-size: 32px;
+    color: #fff;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
 }
