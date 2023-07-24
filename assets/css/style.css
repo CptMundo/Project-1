@@ -370,3 +370,66 @@ section {
 .social-icon:hover {
     transform: scale(1.4);
 }
+
+
+/*Sing-up Form*/
+
+
+.singup-container {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    background-color: hwb(0 32% 68%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-bottom: 30px;
+    color: white;
+    border-radius: 10px;
+}
+
+#singup-h2 {
+    text-align: center;
+    color: white;
+    font-size: 46px;
+    margin-bottom: 40px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.form-group label,
+.form-group input {
+    display: block;
+    width: 100%;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group input[type="submit"] {
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #333;
+    color: white;
+}
