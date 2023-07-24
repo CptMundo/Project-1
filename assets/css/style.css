@@ -376,7 +376,7 @@ section {
 
 
 .singup-container {
-    width: 40%;
+    width: 30%;
     margin-right: auto;
     margin-left: auto;
     padding: 20px;
@@ -392,6 +392,7 @@ section {
     color: white;
     font-size: 46px;
     margin-bottom: 40px;
+    text-transform: uppercase;
 }
 
 .form-group {
@@ -432,4 +433,34 @@ section {
 .form-group input[type="submit"]:hover {
     background-color: #333;
     color: white;
+}
+
+
+/*Table-discography*/
+
+table {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+td {
+    border: 1px solid black;
+    height: 600px;
+    width: 600px;
+}
+
+.album-cover {
+    height: 500px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    display: block;
+}
+
+.table-title {
+    text-align: center;
+    font-family: 'eminem-encore-regular', sans-serif;
 }
