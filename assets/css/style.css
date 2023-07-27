@@ -363,6 +363,7 @@ section {
     align-items: center;
     background-color: #333;
     height: 80px;
+    margin-top: 30px;
 }
 
 .social-icon {
@@ -441,6 +442,19 @@ section {
     background-color: #333;
     color: white;
 }
+
+
+/*sing up answer page*/
+
+.singup-answer {
+    width: 60%;
+    height: 600px;
+    background-color: #333;
+    margin-top: 75px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 
 
 /*Table-discography*/
