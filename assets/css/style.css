@@ -333,6 +333,7 @@ img {
 }
 
 /* Create 2 columns */
+/*redo*/
 .columns {
     display: flex;
     margin-top: 75px;
@@ -348,7 +349,7 @@ section {
     overflow: hidden;
 }
 
-/*Lists*/
+/*Lists Biography*/
 
 .numbering {
     list-style: decimal;
@@ -553,9 +554,16 @@ td {
 
 .text-diss {
     color: white;
-    font-size: 16px;
+    margin-top: 120px;
+    font-size: 24px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     float: left;
+    width: 40%;
+    padding-left: 60px;
+    font-family: 'eminem-encore-regular', sans-serif;
+    line-height: 35px;
 }
 
 .h2-diss {
@@ -563,13 +571,15 @@ td {
     color: white;
     text-transform: uppercase;
     text-align: center;
+    padding-top: 20px;
 }
 
 .album-diss {
     float: right;
-    height: 80%;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    height: 70%;
+    width: 40%;
+    margin-left: auto auto auto auto;
+    padding-right: 60px;
+    margin-top: 30px;
 
 }
