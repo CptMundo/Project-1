@@ -449,12 +449,54 @@ section {
 .singup-answer {
     width: 60%;
     height: 600px;
+    background: url(../images/stan.jpg);
     background-color: #333;
     margin-top: 75px;
     margin-right: auto;
     margin-left: auto;
+    font-family: 'eminem-encore-regular', sans-serif;
+    text-decoration: none !important;
 }
 
+.h2-singup {
+    color: white;
+    text-align: center;
+    font-size: 46px;
+    padding-top: 10px;
+}
+
+.p-singup {
+    font-size: 36px;
+    color: white;
+    width: 450px;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.homepage-link-text {
+    margin-top: 185px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+}
+
+.homepage-link-text:hover {
+    zoom: 120%;
+    margin-top: 155px;
+}
+
+
+.homepage-link {
+    color: rgb(255, 255, 255);
+    width: 25%;
+    border: 3px solid white;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
 
 
 /*Table-discography*/
@@ -466,8 +508,6 @@ table {
     border-spacing: 30px;
     color: white;
 }
-
-
 
 td {
     border: 1px solid black;
