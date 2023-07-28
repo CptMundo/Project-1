@@ -70,8 +70,8 @@ h1 {
     font-size: 36px;
     text-transform: uppercase;
     text-align: center;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 #h3-title-grey {
@@ -80,8 +80,9 @@ h1 {
     text-align: center;
     background-color: rgb(26, 26, 26);
     color: white;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
 
 }
 
@@ -123,22 +124,23 @@ section {
 
 
 #grey-block {
-    width: 100%;
     background-color: #333;
     color: white;
     font-size: 24px;
     line-height: 35px;
     text-align: center;
-    padding-bottom: 10px;
+    list-style: none;
+    font-family: 'eminem-encore-regular', sans-serif;
 }
 
 #white-block {
-    width: 100%;
     color: black;
     font-size: 24px;
     line-height: 35px;
     text-align: center;
     padding-bottom: 15px;
+    list-style: none;
+    font-family: 'eminem-encore-regular', sans-serif;
 }
 
 #about-text-menu {
@@ -332,32 +334,22 @@ img {
     justify-content: center;
 }
 
-/* Create 2 columns */
-/*redo*/
-.columns {
-    display: flex;
-    margin-top: 75px;
+/**biography**/
+
+.biography-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 20px;
+    list-style: none;
 }
 
-.column {
-    flex: 1;
-    margin: 10px;
+.cell {
+    padding: 20px;
+    list-style: none;
 }
 
-section {
-    max-height: 100%;
-    overflow: hidden;
-}
-
-/*Lists Biography*/
-
-.numbering {
-    list-style: decimal;
-    list-style-position: inside;
-}
-
-/*footer*/
-
+/**footer**/
 .horizontal-footer {
     display: flex;
     justify-content: center;
