@@ -3,7 +3,8 @@
     padding: 0;
     border: none;
     list-style: none;
-    font-family: 'eminem-encore-regular', sans-serif;;
+    font-family: 'eminem-encore-regular', sans-serif;
+    ;
 }
 
 #logo {
@@ -580,7 +581,7 @@ td {
 }
 
 
-.here{
+.here {
     color: white;
     text-decoration: underline;
     font-size: 36px;
@@ -588,7 +589,7 @@ td {
 
 }
 
-.here:hover{
+.here:hover {
     zoom: 1.2;
     transition: 3s;
 }
@@ -597,42 +598,52 @@ td {
 
 
 @media (max-width: 615px) {
+
+    /*media querie index.html*/
+
     #logo {
-       font-size: 50px;
-       float: center;
+        font-size: 50px;
+        float: center;
     }
 
     #menu {
         float: left;
     }
 
-    #hero-image{
-        height: 400px;
+    #hero-outer {
+        height: 300px;
     }
 
-    #cover-text h2{
+    #hero-image {
+        height: 250px;
+    }
+
+    #cover-text h2 {
         left: 35%;
-        margin-bottom: 60px;
+        margin-bottom: -175px;
 
     }
 
-    #cover-text h3{
+    #cover-text h3 {
         left: 35%;
-        margin-bottom: 60px;
+        margin-bottom: -175px;
 
     }
 
-    #cover-text h4{
+    #cover-text h4 {
         left: 35%;
-        margin-bottom: 60px;
+        margin-bottom: -175px;
 
     }
-    
-    .singup-container{
+
+    .singup-container {
         width: 80%;
+        margin: auto;
+
     }
 
-    
+    /*media querie biography*/
+
+
 
 }
-  
