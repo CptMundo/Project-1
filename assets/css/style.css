@@ -452,7 +452,7 @@ img {
     margin-right: auto;
     margin-left: auto;
     font-family: 'eminem-encore-regular', sans-serif;
-    text-decoration: none !important;
+    text-decoration: none;
 }
 
 .h2-singup {
@@ -550,8 +550,8 @@ td {
 
 .text-diss {
     color: white;
-    margin-top: 120px;
-    font-size: 24px;
+    margin-top: 20px;
+    font-size: 18px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -602,7 +602,10 @@ td {
 /*Media queries*/
 
 
-@media (max-width: 615px) {
+/* Medium devices*/
+
+
+@media only screen and (max-width: 768px) {
 
     /*media querie index.html*/
 
@@ -671,6 +674,7 @@ td {
 
     /*Media queries Diss page*/
 
+
     .text-diss {
         margin-top: 20px;
         font-size: 14px;
@@ -710,22 +714,22 @@ td {
 
     /*media querie index.html*/
 
-    #logo {
-        font-size: 50px;
-        float: center;
-    }
-
     #menu {
-        float: left;
         line-height: 24px;
         font-size: small;
         margin-bottom: 15px;
-        margin-left: 10px;
         letter-spacing: 0px;
+        text-align: center;
     }
 
     #menu a {
-        font-size: 16px;
+        font-size: 13px;
+        float: left;
+    }
+
+    #logo {
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #hero-outer {
@@ -784,20 +788,30 @@ td {
 
     /*media querie biography page*/
 
+
+    .biography-table {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 0px;
+
+    }
+
     .h3-title-grey {
-        font-size: 24px;
+        font-size: 14px;
     }
 
     .h3-title-grey li {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .grey-block {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .h3-title {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .white-block {
