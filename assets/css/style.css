@@ -594,6 +594,11 @@ td {
     transition: 3s;
 }
 
+.diss-video {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*Media queries*/
 
 
@@ -642,8 +647,61 @@ td {
 
     }
 
-    /*media querie biography*/
+    /*media querie biography page*/
+
+    .h3-title-grey {
+        font-size: 24px;
+    }
+
+    .h3-title-grey li {
+        font-size: 16px;
+    }
+
+    .grey-block {
+        font-size: 16px;
+    }
+
+    .h3-title {
+        font-size: 24px;
+    }
+
+    .white-block {
+        font-size: 16px;
+    }
+
+    /*Media queries Diss page*/
+
+    .text-diss {
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 18px;
+        padding-left: 10px;
+        width: 100%;
+    }
+
+    .album-diss {
+        width: 80%;
+        height: 300px;
+    }
 
 
+
+    .h2-diss {
+        font-size: 24px;
+        padding-top: 10px;
+    }
+
+    .album-diss {
+        border-left: 15px;
+        border-right: 15px;
+    }
+
+    /*Media queries for discography*/
+
+    td {
+        display: inline-flex;
+        flex-direction: column;
+        margin: 15px;
+    }
 
 }
