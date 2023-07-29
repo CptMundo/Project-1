@@ -705,3 +705,138 @@ td {
     }
 
 }
+
+@media (max-width: 320px) {
+
+    /*media querie index.html*/
+
+    #logo {
+        font-size: 50px;
+        float: center;
+    }
+
+    #menu {
+        float: left;
+        line-height: 24px;
+        font-size: small;
+        margin-bottom: 15px;
+        margin-left: 10px;
+        letter-spacing: 0px;
+    }
+
+    #menu a {
+        font-size: 16px;
+    }
+
+    #hero-outer {
+        height: 200px;
+    }
+
+    #hero-image {
+        height: 200px;
+    }
+
+    #cover-text h2 {
+        left: 10%;
+        margin-bottom: -250px;
+
+    }
+
+    #cover-text h3 {
+        left: 10%;
+        margin-bottom: -270px;
+        font-size: 18px;
+
+    }
+
+    #cover-text h4 {
+        left: 10%;
+        margin-bottom: -250px;
+    }
+
+    .image-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .zoom-image {
+        width: 100%;
+    }
+
+    .concert-card {
+        width: 100%;
+    }
+
+    .concert-section {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .singup-container {
+        width: 80%;
+        margin: auto;
+
+    }
+
+    .form-group input[type="submit"] {
+        width: 50%;
+    }
+
+    /*media querie biography page*/
+
+    .h3-title-grey {
+        font-size: 24px;
+    }
+
+    .h3-title-grey li {
+        font-size: 16px;
+    }
+
+    .grey-block {
+        font-size: 16px;
+    }
+
+    .h3-title {
+        font-size: 24px;
+    }
+
+    .white-block {
+        font-size: 16px;
+    }
+
+    /*Media queries Diss page*/
+
+    .text-diss {
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 18px;
+        padding-left: 10px;
+        width: 100%;
+    }
+
+    .album-diss {
+        width: 80%;
+        height: 300px;
+    }
+
+
+
+    .h2-diss {
+        font-size: 24px;
+        padding-top: 10px;
+    }
+
+    .album-diss {
+        border-left: 15px;
+        border-right: 15px;
+    }
+
+    /*Media queries for discography*/
+
+    td {
+        display: inline-flex;
+        flex-direction: column;
+        margin: 15px;
+    }
+
+}
