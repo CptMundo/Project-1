@@ -1,6 +1,6 @@
 # EminƎm Website
 
-![EminƎm Logo](assets/images/hero.avif)
+![EminƎm Logo](docs/readme-images/mockup.jpg)
 
 ## Description
 
