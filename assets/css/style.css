@@ -444,14 +444,14 @@ img {
 /*sing up answer page*/
 
 .singup-answer {
-    width: 60%;
+    width: 90%;
     height: 600px;
     background: url(../images/stan.jpg);
     background-color: #333;
     margin-top: 75px;
     margin-right: auto;
     margin-left: auto;
-    font-family: 'eminem-encore-regular', sans-serif;
+    font-family: 'eminem-encore-regular', sans-serif fixed;
     text-decoration: none;
 }
 
@@ -708,6 +708,15 @@ td {
         margin: 15px;
     }
 
+    .singup-answer {
+        width: 80%;
+        height: 600px;
+        margin-top: 50px;
+    }
+
+    .h2-singup {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 320px) {
@@ -833,8 +842,6 @@ td {
         height: 300px;
     }
 
-
-
     .h2-diss {
         font-size: 24px;
         padding-top: 10px;
@@ -853,4 +860,20 @@ td {
         margin: 15px;
     }
 
-}
+    /*Sing up answer page*/
+
+    .p-singup {
+        font-size: 18px;
+        width: 80%;
+    }
+
+    .singup-answer {
+        width: 95%;
+        height: 500px;
+        margin-top: 30px;
+    }
+
+    .homepage-link-text {
+        position: fixed;
+
+    }
