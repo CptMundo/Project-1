@@ -55,6 +55,34 @@ To run this website locally, follow these steps:
   - Ticket Shop for Eminem's concerts
 ![footer](docs/readme-images/footer-image.jpg)
 
+## Testing
+
+Testing is an important part of the development process to ensure that the website functions correctly and provides a seamless user experience. During development, various testing methods should be employed, including:
+
+
+- **Responsiveness Testing:** Test the website on various devices and screen sizes to ensure it adapts well to different resolutions.
+
+- **Functional Testing:** Check all interactive elements like buttons, forms, and navigation links to ensure they work as expected.
+- 
+- **Video Embed Testing:** Ensure that the embedded YouTube videos on the Discography page play properly and do not cause any issues.
+- 
+- **Sign-Up Form Testing:** Verify that the Sign-Up form captures user data accurately.
+
+- **Lighthouse index.html**
+  ![lighthouse-index](docs/testing/index-lighthouse.jpg) 
+
+- **Lightouse biography.html**
+  ![lighthouse-bio](docs/testing/bio%20lighthouse.jpg)
+
+- **Lighthouse discography.html**
+  ![lighthouse-disco](docs/testing/disco%20lighthouse.jpg)
+
+- **Lighthouse diss.html**
+  ![lighthouse-diss](docs/testing/diss%20lighthouse.jpg)
+
+- **Lighthouse singup.html**
+  ![lighthouse-singup](docs/testing/singup%20lighthouse.jpg)
+  
 ## Technologies Used
 
 - HTML
