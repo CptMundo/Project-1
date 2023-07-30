@@ -1,6 +1,6 @@
 # EminƎm Website
 
-![EminƎm Logo](assets/images/favicon.jpg)
+![EminƎm Logo](assets/images/hero.avif)
 
 ## Description
 
@@ -8,7 +8,7 @@ The EminƎm website is dedicated to the legendary American rapper, Eminem (Marsh
 
 ## Pages
 
-- **Home:** The landing page featuring a captivating header image with a zoom animation on page load and a short introduction to Eminem's life and career.
+- **Home:** The landing page featuring a captivating header image with a zoom animation on page load and a short introduction to Eminem's life and career.- 
 - **Biography:** This page provides an in-depth look at Eminem's life, his struggles, and his immense impact on hip-hop culture.
 - **Discography:** Explore Eminem's extensive discography, including his albums, singles, and collaborations. The Discography page features embedded videos from YouTube for all full albums.
 - **Diss's:** Discover Eminem's legendary diss tracks and the stories behind some of his most iconic feuds.
@@ -28,6 +28,7 @@ To run this website locally, follow these steps:
 
 - A responsive and visually appealing design with hover animations.
 - Navigation menu with a highlight feature to indicate the current page.
+- ![NavigatioN-menu](docs/readme-images/nav-menu.jpg)
 - Information-rich biography section providing insights into Eminem's life and career.
 - Discography page showcasing Eminem's extensive musical journey, with embedded videos from YouTube for all full albums.
 - A dedicated page for Eminem's iconic diss tracks and feuds.
@@ -50,24 +51,19 @@ To run this website locally, follow these steps:
 
 - HTML
 - CSS
-- JavaScript
 - Font Awesome Icons (<https://fontawesome.com/>)
 
 ## Contributing
 
 We welcome contributions to improve this website. If you have suggestions, find issues, or want to add features, feel free to create a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Contact
 
 For any questions or feedback, please contact the project maintainers:
 
-- Email: [your_email@example.com](mailto:your_email@example.com)
-- Social Media: [Your Instagram Profile](https://www.instagram.com/your_instagram_profile/)
+- Email: [victor.emmanuel.silva97@gmail.com](victor.emmanuel.silva97@gmail.com)
+
 
 ## Acknowledgments
 
-Special thanks to the Eminem fan community and all contributors for making this website possible.
+Special thanks to my mentor that guided trought the project and gave me some tips and to W3Schools for their tutorials.
