@@ -680,7 +680,7 @@ td {
         font-size: 14px;
         line-height: 18px;
         padding-left: 10px;
-        width: 100%;
+        width: 97%;
     }
 
     .album-diss {
@@ -719,7 +719,7 @@ td {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
 
     /*media querie index.html*/
 
@@ -732,13 +732,12 @@ td {
     }
 
     #menu a {
-        font-size: 13px;
+        font-size: 22px;
         float: left;
     }
 
     #logo {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 25%;
     }
 
     #hero-outer {
@@ -750,20 +749,20 @@ td {
     }
 
     #cover-text h2 {
-        left: 10%;
-        margin-bottom: -250px;
+        left: 30%;
+        margin-bottom: -270px;
 
     }
 
     #cover-text h3 {
-        left: 10%;
+        left: 30%;
         margin-bottom: -270px;
         font-size: 18px;
 
     }
 
     #cover-text h4 {
-        left: 10%;
+        left: 30%;
         margin-bottom: -250px;
     }
 
@@ -833,23 +832,19 @@ td {
         margin-top: 20px;
         font-size: 14px;
         line-height: 18px;
-        padding-left: 10px;
-        width: 100%;
+        padding-left: 35px;
+        width: 80%;
     }
 
     .album-diss {
+        height: 250px;
         width: 80%;
-        height: 300px;
+        padding-right: 40px;
     }
 
     .h2-diss {
         font-size: 24px;
         padding-top: 10px;
-    }
-
-    .album-diss {
-        border-left: 15px;
-        border-right: 15px;
     }
 
     /*Media queries for discography*/
