@@ -31,14 +31,20 @@ To run this website locally, follow these steps:
   ![NavigatioN-menu](docs/readme-images/nav-menu.jpg)
 - Information-rich biography section providing insights into Eminem's life and career.
 - Discography page showcasing Eminem's extensive musical journey, with embedded videos from YouTube for all full albums.
-  ![Discography](docs/readme-images/disco-image.jpg)
+  ![Discography](docs/readme-images/disco-video-image.jpg)
 - A dedicated page for Eminem's iconic diss tracks and feuds.
+  ![Diss's](docs/readme-images/diss-text-video-image.jpg)
 - Sign-up form for users to receive updates and news about Eminem.
+  ![Singup](docs/readme-images/submit-image.jpg)
 - Homepage with three linked images with hover animations:
   1. **Biography Image:** Links to the Biography page.
+   ![bio-image](docs/readme-images/bio-image.jpg)
   2. **Discography Image:** Links to the Discography page.
+   ![disco-image](docs/readme-images/disco-image.jpg)
   3. **Diss's Image:** Links to the Diss's page.
+   ![diss-image](docs/readme-images/diss-image.jpg)
 - The EminƎm logo in the header is linked to the Home page.
+  ![logo](docs/readme-images/logo.jpg)
 - Footer with icons linked to social media profiles with hover animations:
   - Instagram
   - Facebook
@@ -47,6 +53,7 @@ To run this website locally, follow these steps:
 - Additional icons in the footer linked to:
   - Official Merchandise Shop
   - Ticket Shop for Eminem's concerts
+![footer](docs/readme-images/footer-image.jpg)
 
 ## Technologies Used
 
