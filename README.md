@@ -87,6 +87,9 @@ Testing is an important part of the development process to ensure that the websi
 - **Lighthouse singup.html**
 - 
   ![lighthouse-singup](docs/testing/singup%20lighthouse.jpg)
+
+- **CSS VALIDATOR**
+  ![css-validator](docs/testing/css%20validator.jpg)
   
 ## Technologies Used
 
