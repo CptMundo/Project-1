@@ -157,7 +157,7 @@ section {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url("../images/hero.jpg") no-repeat center center;
+    background: url("../images/hero.avif") no-repeat center center;
     margin-top: 15px;
     background-color: black;
 }
