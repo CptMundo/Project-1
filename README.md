@@ -28,9 +28,10 @@ To run this website locally, follow these steps:
 
 - A responsive and visually appealing design with hover animations.
 - Navigation menu with a highlight feature to indicate the current page.
-- ![NavigatioN-menu](docs/readme-images/nav-menu.jpg)
+  ![NavigatioN-menu](docs/readme-images/nav-menu.jpg)
 - Information-rich biography section providing insights into Eminem's life and career.
 - Discography page showcasing Eminem's extensive musical journey, with embedded videos from YouTube for all full albums.
+  ![Discography](docs/readme-images/disco-image.jpg)
 - A dedicated page for Eminem's iconic diss tracks and feuds.
 - Sign-up form for users to receive updates and news about Eminem.
 - Homepage with three linked images with hover animations:
