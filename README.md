@@ -69,18 +69,23 @@ Testing is an important part of the development process to ensure that the websi
 - **Sign-Up Form Testing:** Verify that the Sign-Up form captures user data accurately.
 
 - **Lighthouse index.html**
+- 
   ![lighthouse-index](docs/testing/index-lighthouse.jpg) 
 
 - **Lightouse biography.html**
+- 
   ![lighthouse-bio](docs/testing/bio%20lighthouse.jpg)
 
 - **Lighthouse discography.html**
+- 
   ![lighthouse-disco](docs/testing/disco%20lighthouse.jpg)
 
 - **Lighthouse diss.html**
+- 
   ![lighthouse-diss](docs/testing/diss%20lighthouse.jpg)
 
 - **Lighthouse singup.html**
+- 
   ![lighthouse-singup](docs/testing/singup%20lighthouse.jpg)
   
 ## Technologies Used
