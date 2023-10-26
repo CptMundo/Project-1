@@ -600,269 +600,80 @@ td {
 
 /*Media queries*/
 
+@media screen and (min-width: 280px) {
 
-/* Medium devices*/
+    body {
+        font-size: 12px;
+    }
 
+    /* Modify the header and navigation to fit the smaller screen */
+    header {
+        padding: 10px;
+    }
 
-@media only screen and (max-width: 768px) {
-
-    /*media querie index.html*/
-
+    #menu,
     #logo {
-        font-size: 50px;
-    }
-
-    #menu {
-        float: left;
-    }
-
-    #hero-outer {
-        height: 300px;
-    }
-
-    #hero-image {
-        height: 250px;
+        line-height: 45px;
+        margin-left: 0 0 0 0;
+        font-size: 46px;
     }
 
     #cover-text h2 {
-        left: 35%;
-        margin-bottom: -175px;
-
-    }
-
-    #cover-text h3 {
-        left: 35%;
-        margin-bottom: -175px;
-
-    }
-
-    #cover-text h4 {
-        left: 35%;
-        margin-bottom: -175px;
-
-    }
-
-    .singup-container {
-        width: 80%;
-        margin: auto;
-
-    }
-
-    /*media querie biography page*/
-
-    .h3-title-grey {
-        font-size: 24px;
-    }
-
-    .h3-title-grey li {
-        font-size: 16px;
-    }
-
-    .grey-block {
-        font-size: 16px;
-    }
-
-    .h3-title {
-        font-size: 24px;
-    }
-
-    .white-block {
-        font-size: 16px;
-    }
-
-    /*Media queries Diss page*/
-
-
-    .text-diss {
-        margin-top: 20px;
-        font-size: 14px;
-        line-height: 18px;
+        color: rgb(245, 238, 238);
+        font-family: 'eminem-encore-regular', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        padding-top: 30px;
         padding-left: 10px;
-        width: 97%;
-    }
-
-    .album-diss {
-        width: 80%;
-        height: 300px;
-    }
-
-
-
-    .h2-diss {
-        font-size: 24px;
-        padding-top: 10px;
-    }
-
-    .album-diss {
-        border-left: 15px;
-        border-right: 15px;
-    }
-
-    /*Media queries for discography*/
-
-    td {
-        display: inline-flex;
-        flex-direction: column;
-        margin: 15px;
-    }
-
-    .singup-answer {
-        width: 80%;
-        height: 600px;
-        margin-top: 50px;
-    }
-
-    .h2-singup {
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 480px) {
-
-    /*media querie index.html*/
-
-    #menu {
-        line-height: 24px;
-        font-size: small;
-        margin-bottom: 15px;
-        letter-spacing: 0px;
-        text-align: center;
-    }
-
-    #menu a {
-        font-size: 22px;
-        float: left;
-    }
-
-    #logo {
-        margin-left: 25%;
+        background-color: rgba(85, 85, 85, 0.377);
     }
 
     #hero-outer {
-        height: 200px;
+        height: 135px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        animation: hero-zoom;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
     }
 
+    .bio-text {
+        margin: 20px 5px 0 5px;
+        text-align: center;
+        text-size-adjust: auto;
+        overflow-x: hidden;
+        font-size: 18px;
+    }
+
+    #about {
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin-bottom: 10px;
+        margin-top: 25px;
+        font-family: 'eminem-encore-regular', sans-serif;
+    }
+
+    #menu ul {
+        flex-direction: column;
+    }
+
+    /* Make the hero image responsive */
     #hero-image {
-        height: 200px;
+        background-size: cover;
+        height: 120px;
+        /* Adjust the height as needed */
     }
 
-    #cover-text h2 {
-        left: 30%;
-        margin-bottom: -270px;
-
-    }
-
-    #cover-text h3 {
-        left: 30%;
-        margin-bottom: -270px;
-        font-size: 18px;
-
-    }
-
-    #cover-text h4 {
-        left: 30%;
-        margin-bottom: -250px;
-    }
-
-    .image-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .zoom-image {
-        width: 100%;
-    }
-
-    .concert-card {
-        width: 100%;
-    }
-
-    .concert-section {
-        flex-direction: column;
-        width: 100%;
-    }
-
+    /* Resize and center the "Become a Stan!" form */
     .singup-container {
-        width: 80%;
-        margin: auto;
-
+        width: 90%;
+        margin: 0 auto;
     }
 
-    .form-group input[type="submit"] {
-        width: 50%;
-    }
-
-    /*media querie biography page*/
-
-
-    .biography-table {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        padding-top: 20px;
-        padding-left: 0px;
-
-    }
-
-    .h3-title-grey {
-        font-size: 14px;
-    }
-
-    .h3-title-grey li {
-        font-size: 14px;
-    }
-
-    .grey-block {
-        font-size: 14px;
-    }
-
-    .h3-title {
-        font-size: 18px;
-    }
-
-    .white-block {
-        font-size: 16px;
-    }
-
-    /*Media queries Diss page*/
-
-    .text-diss {
-        margin-top: 20px;
-        font-size: 14px;
-        line-height: 18px;
-        padding-left: 35px;
-        width: 80%;
-    }
-
-    .album-diss {
-        height: 250px;
-        width: 80%;
-        padding-right: 40px;
-    }
-
-    .h2-diss {
-        font-size: 24px;
-        padding-top: 10px;
-    }
-
-    /*Media queries for discography*/
-
-    td {
-        display: inline-flex;
-        flex-direction: column;
-        margin: 15px;
-    }
-
-    /*Sing up answer page*/
-
-    .p-singup {
-        font-size: 18px;
-        width: 80%;
-    }
-
-    .singup-answer {
-        width: 95%;
-        height: 500px;
-        margin-top: 30px;
+    /* Adjust the size of social icons in the footer */
+    .social-icon {
+        font-size: 20px;
     }
 }
