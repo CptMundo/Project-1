@@ -7,6 +7,7 @@
     ;
 }
 
+
 #logo {
     float: left;
     font-size: 70px;
@@ -195,12 +196,10 @@ section {
     text-transform: uppercase;
     letter-spacing: 4px;
 
-    width: 450px;
-    height: 150px;
+    width: 290px;
+    height: 20px;
 
-    padding-top: 30px;
-    padding-left: 10px;
-
+    padding: 12px;
     background-color: rgba(85, 85, 85, 0.377);
 
     bottom: 250px;
@@ -215,10 +214,12 @@ section {
     font-family: 'eminem-encore-regular', sans-serif;
     letter-spacing: 4px;
 
-    width: 450px;
-    height: 150px;
+    width: 290px;
+    height: 12px;
 
-    padding-left: 10px;
+    padding: 10px;
+    background-color: rgba(85, 85, 85, 0.377);
+
     bottom: 200px;
     left: 50%;
 
@@ -231,10 +232,12 @@ section {
     font-family: 'eminem-encore-regular', sans-serif;
     letter-spacing: 4px;
 
-    width: 450px;
-    height: 150px;
+    width: 290px;
+    height: 10px;
 
-    padding-left: 10px;
+    padding: 12px;
+    background-color: rgba(85, 85, 85, 0.377);
+
     bottom: 150px;
     left: 50%;
 
@@ -586,8 +589,6 @@ td {
 }
 
 
-
-
 /*Media queries*/
 
 @media screen and (min-width: 280px) {
@@ -619,15 +620,6 @@ td {
         padding: 1px;
     }
 
-    #cover-text h2 {
-        color: rgb(245, 238, 238);
-        font-family: 'eminem-encore-regular', sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 4px;
-        padding-top: 30px;
-        padding-left: 10px;
-        background-color: rgba(85, 85, 85, 0.377);
-    }
 
     .bio-text {
         margin: 20px 5px 0 5px;
@@ -1003,26 +995,88 @@ td {
 
 }
 
-
 @media screen and (min-width: 1366px) {
 
-    #cover-text h2 {
-        color: rgb(245, 238, 238);
-        height: 20px;
-        font-family: 'eminem-encore-regular', sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 4px;
-        padding: 15px 15px 15px 15px;
-        background-color: rgba(85, 85, 85, 0.377);
+    .responsive-table td {
+        display: inline-flex;
+        width: 45%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 2%;
     }
 
-    #cover-text h2 {
-        color: rgb(245, 238, 238);
-        font-size: 200%;
-        font-family: 'eminem-encore-regular', sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 4px;
-        width: 450px;
-        height: 0px;
+    .container-diss {
+        display: inline-flex;
+        width: 45%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 2%;
     }
+
+    .text-diss {
+        color: white;
+        margin-top: 3%;
+        margin-right: auto;
+        float: left;
+        width: 90%;
+        padding-left: 10px;
+        font-family: 'eminem-encore-regular', sans-serif;
+        line-height: 15px;
+    }
+
+
+    .zoom-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        padding: 5px;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .image-container {
+        display: flex;
+        width: 95%;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .concert-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 15px;
+        text-align: center;
+        flex-direction: row;
+    }
+
+    .zoom-image {
+        width: 32%;
+        height: 800px;
+        margin: 10px;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+    }
+
+    .zoom-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        padding: 5px;
+    }
+
+    .zoom-image:hover {
+        transform: scale(1.05);
+    }
+
+
+    .zoom-image:hover .image-text {
+        opacity: 1;
+    }
+
 }
