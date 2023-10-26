@@ -720,6 +720,15 @@ td {
 
     /** 280 width Diss page **/
 
+    .container-diss {
+        height: 60vh;
+        width: 80%;
+        margin: 30px 0 30px 0px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #333;
+    }
+
     .h2-diss {
         font-size: 12px;
         color: white;
@@ -840,6 +849,13 @@ td {
         animation-fill-mode: forwards;
     }
 
+    .album-diss {
+        float: none;
+        height: 40%;
+        width: 90%;
+        padding: 15px 0 0 10px;
+    }
+
 
 }
 
@@ -853,6 +869,10 @@ td {
         font-family: 'eminem-encore-regular', sans-serif;
     }
 
+    .h2-diss {
+        font-size: 16px;
+    }
+
     #menu,
     #logo {
         line-height: 45px;
@@ -861,5 +881,148 @@ td {
         width: 100%;
         padding: 10px 0 10px 0;
         margin: auto;
+    }
+
+    .album-diss {
+        float: none;
+        height: 45%;
+        width: 90%;
+        padding: 15px 0px 0px 20px;
+    }
+}
+
+
+@media screen and (min-width: 620px) {
+
+    .album-diss {
+        float: none;
+        height: 50%;
+        width: 90%;
+        padding: 15px 0 0 30px;
+    }
+
+    .h2-diss {
+        font-size: 22px;
+    }
+
+    #hero-image {
+        background-size: cover;
+        height: 370px;
+    }
+
+    #hero-outer {
+        height: 45vh;
+        width: 95%;
+        overflow: hidden;
+        position: relative;
+        animation: hero-zoom;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+    #menu,
+    #logo {
+        line-height: 45px;
+        font-size: 90px;
+        text-align: center;
+        width: 100%;
+        padding: 25px 0 25px 0;
+        margin: auto;
+    }
+
+    .h2-diss {
+        font-size: 32px;
+    }
+
+    .text-diss {
+        font-size: 19px;
+    }
+
+    #hero-image {
+        background-size: cover;
+        height: 370px;
+    }
+
+    .bio-text {
+        margin: 20px 5px 0 5px;
+        text-align: center;
+        text-size-adjust: auto;
+        overflow-x: hidden;
+        font-size: 24px;
+    }
+
+    #about {
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin-bottom: 5px;
+        margin-top: 20px;
+        font-family: 'eminem-encore-regular', sans-serif;
+        font-size: 50px;
+    }
+
+    .container-diss {
+        height: 75vh;
+
+    }
+
+    .album-diss {
+        float: none;
+        height: 60%;
+        width: 90%;
+        padding: 15px 0 0 40px;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) {
+    .biography-table {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        padding: 20px;
+        list-style: none;
+    }
+
+    td {
+        border: 1px solid black;
+        height: 60vh;
+        width: 400px;
+        background-color: #333;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+}
+
+
+@media screen and (min-width: 1366px) {
+
+    #cover-text h2 {
+        color: rgb(245, 238, 238);
+        height: 20px;
+        font-family: 'eminem-encore-regular', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        padding: 15px 15px 15px 15px;
+        background-color: rgba(85, 85, 85, 0.377);
+    }
+
+    #cover-text h2 {
+        color: rgb(245, 238, 238);
+        font-size: 200%;
+        font-family: 'eminem-encore-regular', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        width: 450px;
+        height: 0px;
     }
 }
