@@ -99,6 +99,9 @@ Testing is an important part of the development process to ensure that the websi
 
 - **CSS VALIDATOR**
   ![css-validator](docs/testing/css%20validator.jpg)
+
+- **HTML VALIDATOR**
+  ![html-validator](docs/testing/html-validator.png)
   
 ## Technologies Used
 
@@ -120,3 +123,4 @@ For any questions or feedback, please contact the project maintainers:
 ## Acknowledgments
 
 Special thanks to my mentor that guided trought the project and gave me some tips and to W3Schools for their tutorials.
+Also a special thanks to [Niki Tester](https://www.linkedin.com/in/niki-tester/) for advising me with the screen responsiveness.
