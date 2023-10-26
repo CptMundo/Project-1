@@ -268,19 +268,6 @@ section {
     transform: scale(1.05);
 }
 
-.image-text {
-    position: absolute;
-    bottom: 600px;
-    left: 0;
-    width: 100%;
-    padding: 15px;
-    background-color: rgba(0, 0, 0, 0.329);
-    color: #ffffff;
-    font-size: 46px;
-    text-align: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
 
 .zoom-image:hover .image-text {
     opacity: 1;
@@ -601,9 +588,6 @@ td {
 
 
 
-
-
-
 /*Media queries*/
 
 @media screen and (min-width: 280px) {
@@ -624,6 +608,17 @@ td {
         font-size: 46px;
     }
 
+    #hero-outer {
+        height: 135px;
+        width: 95%;
+        overflow: hidden;
+        position: relative;
+        animation: hero-zoom;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        padding: 1px;
+    }
+
     #cover-text h2 {
         color: rgb(245, 238, 238);
         font-family: 'eminem-encore-regular', sans-serif;
@@ -632,16 +627,6 @@ td {
         padding-top: 30px;
         padding-left: 10px;
         background-color: rgba(85, 85, 85, 0.377);
-    }
-
-    #hero-outer {
-        height: 135px;
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-        animation: hero-zoom;
-        animation-duration: 3s;
-        animation-fill-mode: forwards;
     }
 
     .bio-text {
@@ -665,16 +650,21 @@ td {
     .image-container {
         display: flex;
         flex-direction: column;
+        width: 95%;
     }
 
     .zoom-image {
         width: 100%;
         height: 600px;
+        width: 95%;
+        padding: 0 0 0 0;
     }
 
-    .zoom-image img {
+    .singup-container {
+        width: 30%;
+        padding: 10px;
         width: 90%;
-        object-fit: cover;
+        margin: 0 auto;
     }
 
 
@@ -711,11 +701,6 @@ td {
         padding: 15px;
         text-align: center;
         flex-direction: column;
-    }
-
-    .singup-container {
-        width: 90%;
-        margin: 0 auto;
     }
 
     .form-group input[type="submit"] {
@@ -761,4 +746,120 @@ td {
         padding: 15px 0 0 10px;
     }
 
+    /* Media querie min 280 Biography*/
+
+    .biography-table {
+        display: flex;
+        grid-gap: 10px;
+        padding: 20px;
+        list-style: none;
+        flex-direction: column;
+    }
+
+    .h3-title-grey {
+        font-size: 24px;
+    }
+
+    .grey-block {
+        background-color: #333;
+        color: white;
+        font-size: 18px;
+        line-height: 35px;
+        text-align: center;
+        list-style: none;
+        font-family: 'eminem-encore-regular', sans-serif;
+    }
+
+    .h3-title {
+        font-size: 24px;
+    }
+
+    .white-block {
+        color: black;
+        font-size: 18px;
+        line-height: 35px;
+        text-align: center;
+        padding-bottom: 15px;
+        list-style: none;
+        font-family: 'eminem-encore-regular', sans-serif;
+    }
+
+    .responsive-table {
+        width: 100%;
+    }
+
+    .responsive-table td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .responsive-table td {
+        padding: 10px;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+    }
+
+    .album-cover {
+        width: 75%;
+        height: 75%;
+    }
+
+}
+
+
+@media screen and (min-width: 360px) {
+
+    body {
+        font-size: 12px;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    #menu li {
+        float: none;
+        font-size: 15px;
+    }
+
+    #menu,
+    #logo {
+        line-height: 45px;
+        margin-left: 0 0 0 0;
+        font-size: 46px;
+    }
+
+    #hero-outer {
+        height: 135px;
+        width: 95%;
+        overflow: hidden;
+        position: relative;
+        animation: hero-zoom;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+    }
+
+
+}
+
+
+@media screen and (min-width: 400px) {
+
+    #menu a {
+        text-decoration: none;
+        color: inherit;
+        font-size: 20px;
+        font-family: 'eminem-encore-regular', sans-serif;
+    }
+
+    #menu,
+    #logo {
+        line-height: 45px;
+        font-size: 46px;
+        text-align: center;
+        width: 100%;
+        padding: 10px 0 10px 0;
+        margin: auto;
+    }
 }
