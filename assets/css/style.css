@@ -1062,4 +1062,11 @@ td {
         background-size: cover;
         height: 40vh;
     }
+
+    .singup-container {
+        width: 30%;
+        padding: 10px;
+        width: 30%;
+        margin: 0 auto;
+    }
 }
